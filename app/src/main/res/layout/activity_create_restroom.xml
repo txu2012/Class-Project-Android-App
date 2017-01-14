@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="8dp"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.teamoptimal.cse110project.CreateRestroomActivity"
+    android:clickable = "true"
+    android:focusableInTouchMode = "true">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText"
+        android:hint="name or location for restroom"
+        android:inputType="textEmailAddress"
+        android:imeOptions="actionDone"
+        android:imeActionLabel="Done"
+        android:maxLines="2"
+        android:gravity = "left"
+        android:layout_alignParentTop="true"
+        android:layout_alignEnd="@+id/starScroll"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText2"
+        android:hint="#floor"
+        android:inputType="phone"
+        android:imeOptions="actionDone"
+        android:imeActionLabel="Done"
+        android:maxLines="1"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="8dp"
+        android:layout_toEndOf="@+id/editText" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below = "@+id/editText2"
+        android:text = "Gender"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_marginTop="12dp"
+        android:layout_alignParentLeft="true"
+        android:id="@+id/Gender" />
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/gender"
+        android:layout_marginLeft="66dp"
+        android:spinnerMode="dropdown"
+        android:layout_below="@+id/editText2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below = "@+id/gender"
+        android:text = "Access"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_marginTop="12dp"
+        android:layout_alignParentLeft="true"
+        android:id="@+id/Access" />
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/access"
+        android:layout_marginLeft="66dp"
+        android:layout_below="@+id/gender"
+        android:spinnerMode="dropdown"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below = "@+id/access"
+        android:text = "Tags"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_marginTop="12dp"
+        android:layout_alignParentLeft="true"
+        android:id="@+id/Extra" />
+
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/access"
+        android:layout_above="@+id/ratingBar"
+        android:layout_marginLeft="60dp"
+        android:clickable = "true" />
+
+    <RatingBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:focusableInTouchMode="true"
+        android:layout_toStartOf="@+id/button"
+        android:id="@+id/ratingBar"
+        android:numStars="5" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="+"
+        android:id="@+id/button"
+        android:textColor="#ffe016"
+        android:backgroundTint="#be0037ff"
+        android:layout_alignBottom="@+id/ratingBar"
+        android:layout_marginBottom="6dp"
+        android:layout_alignParentRight="true"
+        android:textSize="16sp" />
+
+</RelativeLayout>
+

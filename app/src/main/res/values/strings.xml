@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Spotty Potty</string>
+    <string name="google_key">AIzaSyCI8YYgH-s-epFwg-VUUdL0v3MPy4VP1hQ</string>
+    <string name="google_client_id">154450642951-iib2rod4c1frsh3vm1vucgdagkg5c1lf.apps.googleusercontent.com</string>
+    <string name="google_web_client_id">154450642951-ia20ed61v0mlfj4at4lne5ukj25qrjsm.apps.googleusercontent.com</string>
+
+    <string name="title_activity_create_restroom">Create a Restroom</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="facebook_app_id">558272761002148</string>
+
+    <string name="consumer_key">2NxMmrpsQSXZQ2S0ZRns9vRUB</string>
+    <string name="consumer_key_secret">mS9rsgF2IxzWIMP2aDBlDBsF3HcU18eNq05AFTbhsVip5OulOM</string>
+
+    <string name="sign_out">Sign Out</string>
+    <string name="signed_out">You are signed out</string>
+    <string name="loading">Please Wait</string>
+    <string name="signed_in_fmt">You are now signed-in!</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_temp_main">TempMainActivity</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="view_dist">500 ft </string>
+    <string name="view_title">Restroom Title </string>
+    <string name="title_activity_report">ReportActivity</string>
+
+    <string name="spinner_gender">Select a gender: </string>
+    <string name="spinner_rating">Select a rating: </string>
+    <string name="title_activity_write_review">WriteReviewActivity</string>
+
+</resources>
