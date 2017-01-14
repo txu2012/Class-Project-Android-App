@@ -9,7 +9,6 @@
 | David  | Pre-planning  | Display map & location  | Display updating radius  | Display markers  | List  | Tweaks, bug fixes  | Tweaks, bug fixes  |
 | Sydney  | Pre-planning  | Rough Draft UI  | Rough Draft UI | Fine tune UI  | Fine tune UI  | Finish up  | Tweaks, bug fixes  |
 | Tony  | Pre-planning  | Sorting methods  | Comments  | Comments | Reviews  | Reviews  | Tweaks, bug fixes  |
-Updated: 02/21/2016
 
 **User stories**
 
