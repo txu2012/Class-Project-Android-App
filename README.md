@@ -1,4 +1,5 @@
 # Class Project
+An Android Application that allows users to review, locate, and create restrooms at the nearest location near the users.
 **Schedule**
 
 | Week  | 1-2 | 3-4 | 5 | 6 | 7 | 8 | 9 |
